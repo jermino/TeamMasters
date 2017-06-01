@@ -1131,9 +1131,12 @@ img {
 }
 .img-rounded {
   border-radius: 100%;
-  margin-left: 1000px;
+  /*margin-left: 1000px;*/
   width: 120px;
   height: 120px;
+}
+.pn{
+  position: center;
 }
 .img-thumbnail {
   display: inline-block;

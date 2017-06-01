@@ -25,6 +25,16 @@ h1,h2,h3,h4,h5,h6{
 p{
 	margin:0;
 }
+
+/*.map-container{
+    position: fixed;
+    border: solid gray 1px;
+    width: 17%;
+    height: 80%;
+    top: 50px;
+    left: 0.5%;
+}*/
+
 ul,label{
 	margin:0;
 	padding:0;
@@ -223,6 +233,17 @@ ul.nav-sub li a {
     outline: none;
     margin: .5em 0;
 }
+
+#map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
 .menu-button::before {
     position: absolute;
     top: 0;

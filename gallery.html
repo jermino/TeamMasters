@@ -1,3 +1,9 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +18,33 @@
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 <link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/ken-burns.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- //Custom Theme files -->
+
 <!-- js -->
 <script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <!-- //js -->
+<!-- pop-up-box -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+	$('.popup-top-anim').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,
+		fixedBgPos: true,
+		overflowY: 'auto',
+		closeBtnInside: true,
+		preloader: false,
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+});
+</script>
+<!--//pop-up-box -->
 <!-- web-fonts -->
 <link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -118,11 +147,13 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="content">
+				<!-- gallery -->
 				<div class="w3agile gallery">
-					<h2 class="w3ls-title"><b>GALLERY</b></h2>
-					<div style="height: 50px;"></div>
+					<h3 class="w3ls-title">Gallery</h3>
+					<p class="w3-text">A place where eyes never forgets -- memories...</p>
 					<div class="gallery-row">
-                                          <h3>Christmas Party</h3>
+                                        <center><h3>Christmas Party</h3></center>
+																				<p class="w3-text">Christmas with the team is awesome!</p>
 						<div class="gallery-grids">
 							<div class="w3ls-hover">
 								<a href="images/Christmas/1.jpg" data-lightbox="example-set" data-title="Christmas is not so much about opening presents, as opening our hearts.">
@@ -186,7 +217,8 @@
 
 						<hr>
 						<div style="height: 200px;"></div>
-						<h3>Outings</h3>
+						<center><h3>Outings</h3></center>
+						<p class="w3-text">Outings with the team are groufies!</p>
 <div class="gallery-grids">
 <div class="w3ls-hover">
 <a href="images/Outing/1.jpg" data-lightbox="example-set" data-title="Enjoying our swimming in the sea during our outing.">
@@ -251,7 +283,8 @@
 
 <hr>
 <div style="height: 200px;"></div>
-<h3>Trainings</h3>
+					<center><h3>Trainings</h3></center>
+					<p class="w3-text">Trainings with the team are full of amazing ideas!</p>
 <div class="gallery-grids">
 <div class="w3ls-hover">
 <a href="images/Trainings/1.jpg" data-lightbox="example-set" data-title="A selfie during our training in Mechatronics... just an ice breaker...">
@@ -316,7 +349,8 @@
 
 <hr>
 <div style="height: 200px;"></div>
-<h3>Birthday Party</h3>
+<center><h3>Birthday Party</h3></center>
+<p class="w3-text">Birthday Party with the team means cakes and ice creams!</p>
 <div class="gallery-grids">
 <div class="w3ls-hover">
 <a href="images/Birthday/1.jpg" data-lightbox="example-set" data-title="First part of the game during the Birthday Party Celebration.">
@@ -389,7 +423,7 @@
 					<script src="js/lightbox-plus-jquery.min.js"> </script>
 					<!-- //light box js-->
 				</div>
-			
+
 				<!-- footer -->
 				<div class="w3agile footer">
 					<div class="social-icons">
